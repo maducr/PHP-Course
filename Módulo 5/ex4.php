@@ -40,3 +40,11 @@ $deducao = 354.80;
 $calcIRPF = calcIRPF($salario, $dependentes, $aliquota, $deducao);
 
 echo "Imposto de Renda: R$ " . number_format($calcIRPF, 2, ',', '.');
+
+// 2. Crie uma arrow function formataLink com dois parâmetros $url, $texto que imprime um link com os dados enviados
+$formataLink = fn($url, $texto) => "<a href='$url'>$texto</a>";
+
+// Exemplo
+$url = "https://www.google.com/";
+$texto = "tradutor";
+echo $formataLink($url, $texto);
