@@ -8,7 +8,7 @@ echo "Escaped String: $escapedStr\n";
 echo "Unescaped String: $unescapedStr\n\n";
 
 // echo
-echo "Hello, World!\n\n";
+echo "Teste Funções para Strings!\n\n";
 
 // explode e implode
 $dateString = "2024-01-03";
